@@ -21,7 +21,7 @@ Add QT += widgets to the project because this project needs Qt widgets.
 echo QT += widgets >> calculator.pro
 ```
 
-##### Step 3 : Generating a makefile 
+#### Step 3: Generating a makefile 
 Just generate a makefile and then build the project using make.
 ```
 qmake calculator.pro
