@@ -8,21 +8,21 @@ Simple calculator program using Qt library.
 - C++ compiler
 - make
 
-### Compilation step
+### Compilation steps
 #### Step 1: Creating project
-First of all, create a new Qt project using qmake
+First of all, create a new Qt project using qmake.
 ```
 qmake -project
 ```
 
 #### Step 2: Adding Qt widgets to the project
-Add QT += widgets to the project because this project needs Qt widgets
+Add QT += widgets to the project because this project needs Qt widgets.
 ```
 echo QT += widgets >> calculator.pro
 ```
 
 ##### Step 3 : Generating a makefile 
-Just generate a makefile then build the project using make
+Just generate a makefile and then build the project using make.
 ```
 qmake calculator.pro
 make
